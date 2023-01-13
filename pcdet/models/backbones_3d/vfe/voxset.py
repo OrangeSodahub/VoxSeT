@@ -6,7 +6,7 @@ from .vfe_template import VFETemplate
 import torch_scatter
 
 import math
-import spconv
+import spconv.pytorch as spconv
 
 
 class MLP(nn.Module):
